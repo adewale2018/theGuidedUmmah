@@ -4,7 +4,7 @@ import "./Nav.css";
 
 const NavigationBar = () => {
   return (
-    <header style={{ borderBottom: ".5rem solid #fff" }}>
+    <header>
       <Navbar expand='lg' variant='dark'>
         <Navbar.Brand href='/'>
           <i
