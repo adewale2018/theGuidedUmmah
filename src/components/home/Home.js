@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Greeting from "../../img/gif/tenor3.gif";
 import "./Home.css";
+// import RecentsPosts from './../recentsposts/RecentsPosts';
+import Posts from "./../posts/Posts";
 
 const Home = () => {
   return (
@@ -9,15 +11,20 @@ const Home = () => {
       <div className='Col-container'>
         <Container>
           <Row>
-            <Col>
+            <Col className='Home-col-sm'>
               <img src={Greeting} alt={"Greeting gif"} />
+              <div className='Posts-title'>
+                <Posts />
+              </div>
             </Col>
 
-            <Col xs={6} className='Home-col'>
+            <Col className='Home-col'>
               <section>
                 <div className='title-container'>
                   <h3>
                     <span className='arabic-lang'>﷽</span>
+                    {/* <span className='arabic-lang'>بسم الله الرحمن الرحيم</span> */}
+
                     <span className='english-lang'>
                       You are Welcome To The Guided Ummah Website
                     </span>
@@ -41,9 +48,9 @@ const Home = () => {
                 </p>
               </section>
             </Col>
-            <Col className='Home-col'>
+            {/* <Col className="Home-col-sm">
               <img src={Greeting} alt={"Greeting gif"} />
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
