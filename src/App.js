@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import NavigationBar from './components/layout/nav/NavigationBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>REACT IS HERE...
-      <i class="fas fa-quran"/></h1>
+    <NavigationBar />
       
     </div>
   );

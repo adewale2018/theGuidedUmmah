@@ -1,13 +1,45 @@
-body {
+/* BEM Block, Element, Modifiers */
+html {
+  font-size: 62.5%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+
+  @media only screen and (max-width: 79.375em) {
+    font-size: 58.5%;
+  }
+  @media only screen and (max-width: 68.75em) {
+    font-size: 59%;
+  }
+  @media only screen and (max-width: 31.25em) {
+    font-size: 47.5%;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+  box-sizing: border-box;
+  background-color: #151a45;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
 }
