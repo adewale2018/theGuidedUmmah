@@ -1,0 +1,41 @@
+span.logo {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: .2rem;
+  margin-right: 3rem;
+  font-family: "Quicksand", sans-serif;
+}
+.main-title {
+  /* color: #22a2ff; */
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  font-weight: 700;
+  /* background-image: linear-gradient( rgba(34, 162, 255, .8), rgba(255, 255, 255, 1));  */
+  text-shadow: -1px 0  rgba(34, 162, 255, .5), 0 1px rgba(255, 255, 255, 1), 1px 0 #22a2ff, 0 -1px #22a2ff;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+.main-wrapper {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.main-left {
+  border: 2px solid red;
+  width: 65%;
+  margin-right: 5rem;
+  padding: 2rem 3rem;
+  text-align: justify;
+}
+.main-right {
+  border: 2px solid orangered;
+  align-self: left;
+  padding: 1rem 3rem;
+}
+.daily-hadith p {
+  font-size: 1.8rem;
+}
