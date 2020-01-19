@@ -22,16 +22,12 @@ class Posts extends Component {
   }
     
   render () {
-    console.log(this.props.posts);
     return (
       <div>
         <RecentsPosts posts={this.props.posts} />
       </div>
     );
-
   }
 };
-
-
 
 export default Posts;
