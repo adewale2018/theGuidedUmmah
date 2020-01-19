@@ -6,7 +6,6 @@
   /* min-height: 65vh; */
   text-align: center;
   padding-bottom: 5rem;
-  border: 2px solid red;
 }
 .Home img {
   height: 200px;
@@ -45,8 +44,8 @@
 p {
   color: #000;
   font-size: 1.6rem;
-  letter-spacing: 0.2rem;
-  text-align: justify;
+  letter-spacing: .1rem;
+  text-align: left;
 }
 .Home-col {
   flex: 50%;
@@ -54,6 +53,29 @@ p {
 .Home-col-sm {
   flex: 10%;
   border: 1px solid #1b1e20;
+  margin: 2rem 1rem 3rem 1rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),    0 16px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.Home-col-sm-1 {
+  overflow: hidden;
+}
+.Home-col-sm img:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  -webkit-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  -moz-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  -ms-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  -o-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 .Posts-title {
   margin-top: 2rem;

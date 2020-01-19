@@ -7,7 +7,7 @@ class Posts extends Component {
     posts: [
       {
         id: '1',
-        title: "First post",
+        title: "Dua_of_the_prophet",
         body: "This is the first post",
         author: "First post author"
       },

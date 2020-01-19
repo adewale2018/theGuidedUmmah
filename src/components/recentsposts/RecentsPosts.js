@@ -8,7 +8,7 @@ const RecentsPosts = ({ posts }) => {
       <h1>RECENTS POSTS</h1>
       <ul>
         {posts.map(post => (
-          <Link to={post.title}>
+          <Link to={`/${post.title}`}>
             <li key={post.id}>{post.title}</li>
           </Link>
         ))}
