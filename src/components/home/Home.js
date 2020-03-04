@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import Greeting from "../../img/gif/tenor3.gif";
 import "./Home.css";
@@ -53,6 +54,7 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+      <Link to="/posts">All Posts</Link>
     </div>
   );
 };
