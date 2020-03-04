@@ -1,15 +1,9 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
-import {v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 import "./App.css";
 import NavigationBar from "./components/layout/nav/NavigationBar";
 import Date from "./components/date/Date";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import NotFound from "./components/notfound/NotFound";
-import PostsList from "./components/posts/PostsList";
-import Post from "./components/posts/Post";
+import Routes from "./components/routes/Routes";
 
 class App extends Component {
   static defaultProps = {
@@ -53,30 +47,11 @@ class App extends Component {
     ]
   };
   render() {
-    const getPost = props => {
-      let title = props.match.params.title;
-      let currentPost = this.props.posts.find(
-        post => post.title.toLowerCase() === title.toLowerCase()
-      );
-      return <Post {...props} post={currentPost} />;
-    };
     return (
-      <div className='App'>
+      <div>
         <Date />
         <NavigationBar />
-
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
-          <Route
-            exact
-            path='/posts'
-            render={() => <PostsList posts={this.props.posts} />}
-          />
-          <Route exact path='/posts/:title' render={getPost} />
-          <Route component={NotFound} />
-        </Switch>
+        <Routes posts={this.props.posts} />
       </div>
     );
   }

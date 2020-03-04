@@ -2,5 +2,10 @@
   color: #1a1300;
   font-weight: bolder;
   letter-spacing: .3rem;
-  text-align: center;
+  text-align: right;
+}
+.Date-time {
+  background-color: steelblue;
+  color: #fff;
+  padding: 0.2rem .8rem;
 }

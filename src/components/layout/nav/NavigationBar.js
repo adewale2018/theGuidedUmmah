@@ -10,7 +10,7 @@ const NavigationBar = () => {
           <i
             className='fas fa-quran'
             style={{
-              color: "#1a1300",
+              color: "#22a2ff",
               fontSize: "3rem",
               marginLeft: "1.5rem",
               marginRight: "1.5rem"
@@ -24,13 +24,13 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ml-auto' style={{ fontSize: "2rem" }}>
-            <Nav.Link href='/' style={{ color: "#1a1300", fontWeight: "bolder" }}>
+            <Nav.Link href='/' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
               Home
             </Nav.Link>
-            <Nav.Link href='/about' style={{ color: "#1a1300", fontWeight: "bolder" }}>
+            <Nav.Link href='/about' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
               About
             </Nav.Link>
-            <Nav.Link href='/contact' style={{ color: "#1a1300", fontWeight: "bolder" }}>
+            <Nav.Link href='/contact' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
               Contact
             </Nav.Link>
           </Nav>
