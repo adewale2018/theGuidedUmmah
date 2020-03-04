@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import Greeting from "../../img/gif/tenor3.gif";
 import "./Home.css";
-import Posts from "./../posts/Posts";
+
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
                 <img src={Greeting} alt={"Greeting gif"} />
               </div>
               <div className='Posts-title'>
-                <Posts />
+                Some titles will be here later
               </div>
             </Col>
 

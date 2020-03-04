@@ -7,15 +7,32 @@ span.logo {
   font-family: "Quicksand", sans-serif;
 }
 .main-title {
-  /* color: #22a2ff; */
+
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-weight: 700;
-  /* background-image: linear-gradient( rgba(34, 162, 255, .8), rgba(255, 255, 255, 1));  */
   text-shadow: -1px 0 rgba(34, 162, 255, 0.5), 0 1px rgba(255, 255, 255, 1),
     1px 0 #22a2ff, 0 -1px #22a2ff;
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+a.nav-link {
+  text-decoration: none;
+
+
+  /* vertical-align: top; */
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+
+
+
+  /* color: #22a2ff; */
