@@ -10,37 +10,43 @@ class App extends Component {
     posts: [
       {
         id: uuidv4(),
-        title: "Dua of the prophet",
+        title: "Duas of the prophet",
         body: "This is the first post",
         author: "First post author"
       },
       {
         id: uuidv4(),
-        title: "Second post",
+        title: "Etiqutte of Friday prayer",
         body: "This is the second post",
         author: "Second post author"
       },
       {
         id: uuidv4(),
-        title: "third",
+        title: "If you were one of the three, what would you have said?",
         body: "This is the third post",
         author: "third post author"
       },
       {
         id: uuidv4(),
-        title: "Fourth post",
+        title: "Preparation for Ramadan",
         body: "This is the second post",
         author: "Fourth post author"
       },
       {
         id: uuidv4(),
-        title: "Fifth",
+        title: "My Husband, my Jannah",
         body: "This is the fifth post",
         author: "Fifth post author"
       },
       {
         id: uuidv4(),
-        title: "Sixth post",
+        title: "Shittu Saheed Adewale",
+        body: "This is the sixth post",
+        author: "Sixth post author"
+      },
+      {
+        id: uuidv4(),
+        title: "Last on the List",
         body: "This is the sixth post",
         author: "Sixth post author"
       }

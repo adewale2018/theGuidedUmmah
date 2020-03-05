@@ -30,6 +30,9 @@ const NavigationBar = () => {
             <Nav.Link href='/about' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
               About
             </Nav.Link>
+            <Nav.Link href='/posts' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
+              Posts
+            </Nav.Link>
             <Nav.Link href='/contact' style={{ color: "#1a1300", fontWeight: "200" }} className="link">
               Contact
             </Nav.Link>
