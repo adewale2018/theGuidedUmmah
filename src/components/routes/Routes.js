@@ -10,15 +10,15 @@ import Post from "./../posts/Post";
 class Routes extends Component {
   render() {
     const getPost = props => {
-      let title = props.match.params.title;
+      let postId = props.match.params.id;
       let currentPost = this.props.posts.find(
-        post => post.title.toLowerCase() === title.toLowerCase()
+        post => post.id === postId
       );
       return <Post {...props} post={currentPost} />;
     };
     return (
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/' render={() => < Home posts={this.props.posts} />} />
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         <Route
@@ -26,7 +26,7 @@ class Routes extends Component {
           path='/posts'
           render={() => <PostsList posts={this.props.posts} />}
         />
-        <Route exact path='/posts/:title' render={getPost} />
+        <Route exact path='/posts/:id' render={getPost} />
         <Route component={NotFound} />
       </Switch>
     );

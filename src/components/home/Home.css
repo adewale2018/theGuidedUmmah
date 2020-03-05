@@ -1,14 +1,13 @@
 .Home {
   text-align: center;
+  background-color: #fefefe;
 }
 .Col-container {
   background-color: #fefefe;
-  /* min-height: 65vh; */
   text-align: center;
-  padding-bottom: 5rem;
 }
 .Home img {
-  height: 200px;
+  margin-top: 2.3rem;
 }
 .title-container {
   text-align: center;
@@ -27,7 +26,7 @@
 .title-container h3 span.english-lang {
   font-size: 2.5rem;
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
   text-transform: uppercase;
   background-color: #151a45;
   letter-spacing: 0.3rem;
@@ -40,26 +39,33 @@
     1px 0 #22a2ff, 0 -1px #22a2ff;
   margin-bottom: 2rem;
 }
-
 p {
   color: #000;
   font-size: 1.6rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-align: left;
+  padding: 0 4rem;
+  line-height: 3.5rem;
+  vertical-align: middle;
 }
 .Home-col {
   flex: 50%;
+  margin-top: 2.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
 }
 .Home-col-sm {
   flex: 10%;
-  border: 1px solid #1b1e20;
-  margin: 2rem 1rem 3rem 1rem;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),    0 16px 16px rgba(0, 0, 0, 0.05);
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  margin: 2.5rem 0 4rem 0;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 .Home-col-sm-1 {
   overflow: hidden;
@@ -78,5 +84,5 @@ p {
   -o-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 .Posts-title {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }

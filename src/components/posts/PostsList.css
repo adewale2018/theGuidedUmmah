@@ -1,0 +1,9 @@
+.PostsList-post {
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding-top: 2rem;
+  border-top-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  margin-bottom: .5rem;
+  
+}
