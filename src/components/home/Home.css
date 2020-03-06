@@ -1,13 +1,10 @@
 .Home {
   text-align: center;
-  background-color: #fefefe;
 }
 .Col-container {
   background-color: #fefefe;
   text-align: center;
-}
-.Home img {
-  margin-top: 2.3rem;
+  padding-bottom: 5rem;
 }
 .title-container {
   text-align: center;
@@ -26,46 +23,44 @@
 .title-container h3 span.english-lang {
   font-size: 2.5rem;
   text-align: center;
-  padding: 1.5rem 2rem;
+  padding: 1.8rem 1rem;
   text-transform: uppercase;
   background-color: #151a45;
   letter-spacing: 0.3rem;
   font-weight: 700;
-  background-image: linear-gradient(
-    rgba(34, 162, 255, 0.8),
-    rgba(255, 255, 255, 1)
-  );
-  text-shadow: -1px 0 rgba(34, 162, 255, 0.5), 0 1px rgba(255, 255, 255, 1),
-    1px 0 #22a2ff, 0 -1px #22a2ff;
+  background-image: linear-gradient(    rgba(34, 162, 255, 0.8),    rgba(255, 255, 255, 1)  );
+  text-shadow: -1px 0 rgba(34, 162, 255, 0.5), 0 1px rgba(255, 255, 255, 1),    1px 0 #22a2ff, 0 -1px #22a2ff;
   margin-bottom: 2rem;
+  border-radius: .3rem;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  -ms-border-radius: .3rem;
+  -o-border-radius: .3rem;
 }
+
 p {
   color: #000;
   font-size: 1.6rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: .15rem;
   text-align: left;
-  padding: 0 4rem;
-  line-height: 3.5rem;
+  padding: 0 3rem;
+  line-height: 4.5rem;
   vertical-align: middle;
 }
 .Home-col {
-  flex: 50%;
-  margin-top: 2.5rem;
   border: 1px solid lightgray;
-  border-radius: 0.4rem;
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
+  margin: 2rem 0 3rem 0;
+  flex: 50%;
 }
 .Home-col-sm {
   flex: 10%;
-  margin: 2.5rem 0 4rem 0;
-  border-radius: 0.5rem;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
+  margin: 2rem .5rem 3rem 0;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .Home-col-sm-1 {
   overflow: hidden;
@@ -84,5 +79,5 @@ p {
   -o-transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 .Posts-title {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }

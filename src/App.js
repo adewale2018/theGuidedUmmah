@@ -56,8 +56,9 @@ class App extends Component {
     return (
       <div>
         <Date />
-        <NavigationBar />
+        <NavigationBar title={'The Guided-Ummah'} />
         <Routes posts={this.props.posts} />
+        <NavigationBar  />
       </div>
     );
   }
