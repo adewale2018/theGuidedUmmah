@@ -1,0 +1,30 @@
+.Hadith-title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-shadow: -1px 0 rgba(34, 162, 255, 0.5), 0 1px rgba(255, 255, 255, 1),
+    1px 0 #22a2ff, 0 -1px #22a2ff;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-color: gold;
+}
+.Hadith-reporter{
+  letter-spacing: 0;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.Hadith-text-arabic {
+  color: #000;
+  font-weight: 100;
+  letter-spacing: 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.Hadith span {
+  color: #22a2ff;
+  text-decoration: double;
+  
+}
