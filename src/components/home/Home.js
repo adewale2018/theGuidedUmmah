@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Greeting from "../../img/gif/salam.gif";
 import "./Home.css";
 import PostsTitles from "./../posts/PostsTitles";
-import Hadith from './../hadiths/Hadith';
+import Hadith from "./../hadiths/Hadith";
 
 const Home = props => {
   return (
@@ -42,11 +42,9 @@ const Home = props => {
                 reminding us that we have limited time on this surface of the
                 earth. Consequently, there is need to continuosly prepare for
                 the hereafter. Allah says{" "}
-                <strong>
-                  <em>
-                    And worship your Lord until there comes to you the
-                    certainty(death)
-                  </em>
+                <strong style={{ color: "#22a2ff" }}>
+                  And worship your Lord until there comes to you the
+                  certainty(death)
                 </strong>{" "}
                 Q15:99.{" "}
               </p>
@@ -57,6 +55,7 @@ const Home = props => {
               >
                 ALL POSTS
               </Link>
+              <hr />
               <Hadith />
             </section>
           </Col>
