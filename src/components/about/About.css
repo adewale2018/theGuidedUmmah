@@ -1,0 +1,33 @@
+#main-title {
+  /* remove this at small screen-size */
+  margin-top: -4rem;
+  margin-bottom: 2rem; 
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  text-shadow: -1px 0 rgba(34, 162, 255, 0.5), 0 1px rgba(255, 255, 255, 1),
+    1px 0 #22a2ff, 0 -1px #22a2ff;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.About-text {
+  padding: 2rem 1rem 8rem 1rem;
+  border: 1px solid lightgrey;
+  border-radius: .3rem;
+  -webkit-border-radius: .3rem;
+  -moz-border-radius: .3rem;
+  -ms-border-radius: .3rem;
+  -o-border-radius: .3rem;
+}
+.About-text p {
+  color: #000;
+}
+.About  span {
+  color: #22a2ff;
+}
+.About .card li {
+  font-size: 1.7rem;
+  text-align: left;
+}
